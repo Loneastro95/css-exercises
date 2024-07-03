@@ -20,8 +20,35 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  gap: 10px;
+}
+.info-container{
+  flex: 1;
+  gap: 2px;
+
 }
 
+.heading-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-container{
+  flex: 1;
+  gap: 100px;
+  align-items: center;
+}
+.text{
+  margin-bottom: 10px;
+  padding-right: 10px;
+  
+}
+.header{
+  font-weight: bolder;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
